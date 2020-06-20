@@ -1,6 +1,5 @@
 #WP Dev Env
-conf
-logs
+conf/
 
 # Logs
 logs
