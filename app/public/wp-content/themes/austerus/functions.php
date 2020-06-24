@@ -38,8 +38,8 @@
         if (strstr($_SERVER['SERVER_NAME'], 'austerus.local')) {
             wp_enqueue_script('main-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
         } else {
-            wp_enqueue_script('main-js', get_theme_file_uri('/bundled-assets/scripts.fe0a3136168de96f250f.js'), NULL, microtime(), true);
-            wp_enqueue_script('vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.8c97d901916ad616a264.js'), NULL, microtime(), true);
+            wp_enqueue_script('vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.9678b4003190d41dd438.js'), NULL, microtime(), true);
+            wp_enqueue_script('main-js', get_theme_file_uri('/bundled-assets/scripts.6bf8e6737bb1903c630a.js'), NULL, microtime(), true);
             wp_enqueue_style('main-styles', get_theme_file_uri('/bundled-assets/style.css'));
         }
 

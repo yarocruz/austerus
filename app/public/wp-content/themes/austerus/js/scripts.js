@@ -9,9 +9,11 @@ import Search from "./modules/Search";
 
 // Instantiate a new object using our modules/classes
 const mobileMenu = new MobileMenu()
-const heroSlider = new HeroSlider()
+//const heroSlider = new HeroSlider()
 const googleMap = new GoogleMap()
 const search = new Search()
+
+console.log('Yo dawg!')
 
 
 // Allow new JS and CSS to load in browser without a traditional page refresh
