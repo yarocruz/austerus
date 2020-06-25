@@ -14,7 +14,7 @@ while(have_posts()) { // have_posts() finds the posts that are created from dash
         </div>
 
         <div class="generic-content">
-            <?php the_content();?>
+            <?php the_field('main_body_content');?>
         </div>
 
         <?php
