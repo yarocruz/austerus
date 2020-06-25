@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 class Search {
-    // 1. initiate object
+    // 1. initiate Object
     constructor() {
         this.addSearchHTML();
         this.resultsDiv = $('#search-overlay__result');
