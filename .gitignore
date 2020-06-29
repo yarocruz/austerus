@@ -1,6 +1,6 @@
 #WP Dev Env
 conf/
-bundled-assets
+bundled-assets/
 
 # Logs
 logs
