@@ -1,4 +1,6 @@
 import "../css/style.css"
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 // Our modules / classes
 import MobileMenu from "./modules/MobileMenu"
@@ -17,7 +19,16 @@ const search = new Search()
 const myNotes = new MyNotes()
 const like = new Like()
 
+// React Code
+function FirstComponent() {
+  return (
+      <div>
+          <h1>Hello World</h1>
+      </div>
+  )
+}
 
+ReactDOM.render(<FirstComponent />, document.getElementById('app'));
 
 
 // Allow new JS and CSS to load in browser without a traditional page refresh
