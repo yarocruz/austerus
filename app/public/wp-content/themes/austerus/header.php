@@ -8,7 +8,3 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class();?>>
-
-<header class="site-header">
-   <h1>Hello from the Header</h1>
-</header>
