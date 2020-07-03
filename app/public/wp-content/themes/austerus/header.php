@@ -14,9 +14,9 @@
         <nav>
             <h1 class="logo"><a href="<?php echo site_url();  ?>"><?php bloginfo('title'); ?></a></h1>
             <div class="nav-links">
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="<?php echo site_url('/about');?>">About</a>
+                <a href="<?php echo site_url('/projects')?>">Projects</a>
+                <a href="<?php echo site_url('/contact')?>">Contact</a>
                 <a href="<?php echo site_url('/blog');?>">Blog</a>
             </div>
         </nav>

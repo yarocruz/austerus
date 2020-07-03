@@ -52,21 +52,7 @@
             <?php } ?>
 
             <div class="generic-content">
-                <? the_content();
-
-                    sanitize_text_field(get_query_var('skyColor'));
-
-                    if (get_query_var('skyColor') == 'blue') {
-                        echo '<p>Sky is blue today. </p>';
-                    }
-
-                ?>
-
-                <form method="get">
-                    <input type="text" name="skyColor" placeholder="Sky color">
-                    <input type="text" name="grassColor" placeholder="Grass color">
-                    <submit></submit>
-                </form>
+                <? the_content(); ?>
             </div>
 
         </div>

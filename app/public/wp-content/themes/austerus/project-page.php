@@ -1,12 +1,11 @@
-<?php get_header(); ?>
+<?php
 
-    <div class="intro">
-        <h1>hello</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolorem,
-            esse eum incidunt inventore maiores nobis officia perferendis qui, quibusdam
-            repudiandae tempora totam vitae? Fugit inventore maxime nemo similique tempore.
-        </p>
-    </div>
+get_header();
+pageBanner(array(
+    'title' => 'Projects',
+    'subtitle' => 'These are some of my projects'
+));
+?>
 
     <div class="gallery">
         <img src="<?php echo get_theme_file_uri('/images/tinyman.jpg'); ?>" alt="tiny man on a white background">
@@ -17,8 +16,4 @@
         <img src="<?php echo get_theme_file_uri('/images/tree.jpg'); ?>" alt="leafless tree">
     </div>
 
-    <?php get_footer(); ?>
-
-</div>
-
-
+<?php get_footer(); ?>
