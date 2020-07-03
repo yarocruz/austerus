@@ -1,6 +1,6 @@
 # Austerus
 
-<img src="./austere.png" alt="Austerus Preview Image" />
+![Austerus Preiew](austere.png)
 
 Austerus is a minimal portfolio WordPress Theme. 
 
