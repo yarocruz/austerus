@@ -1,5 +1,7 @@
 # Austerus
 
+<img src="./austere.png" alt="Austerus Preview Image" />
+
 Austerus is a minimal portfolio WordPress Theme. 
 
 ## Project Goals
@@ -12,7 +14,7 @@ the Udemy course project.
 
 ## Demo
 
-Coming Soon. But if you want to see the course project I have it deployed [here](http://jayc1.sgedu.site/).
+Project is super barebones at the moment by you can checkout the demo here. [Austerus](http://jayc1.sgedu.site/).
 
 
 
