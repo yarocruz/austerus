@@ -1,18 +1,5 @@
 <?php get_header(); ?>
 
-<div class="main-container">
-    <header>
-        <nav>
-            <h1 class="logo"><?php bloginfo('title'); ?></h1>
-            <div class="nav-links">
-                <a href="#">About</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
-                <a href="#">Blog</a>
-            </div>
-        </nav>
-    </header>
-
     <div class="intro">
         <h1>hello</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolorem,

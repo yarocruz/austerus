@@ -8,3 +8,16 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class();?>>
+
+<div class="main-container">
+    <header>
+        <nav>
+            <h1 class="logo"><a href="<?php echo site_url();  ?>"><?php bloginfo('title'); ?></a></h1>
+            <div class="nav-links">
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+                <a href="<?php echo site_url('/blog');?>">Blog</a>
+            </div>
+        </nav>
+    </header>

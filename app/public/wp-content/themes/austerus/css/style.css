@@ -19,8 +19,26 @@ body {
     text-transform: uppercase;
 }
 
+.logo a, a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo a:hover, a:hover {
+    color: #cacaa3;
+}
+
+.intro {
+    max-width: 550px;
+    margin: 150px 0;
+}
+
 p {
     line-height: 1.8em;
+}
+
+.post-content a {
+    color: #cacaa3;
 }
 
 nav {
@@ -36,12 +54,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: black;
-}
-
-.intro {
-    max-width: 550px;
-    margin: 150px 0;
+    color: #cacaa3;
 }
 
 img {
